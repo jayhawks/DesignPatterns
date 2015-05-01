@@ -1,6 +1,6 @@
 package com.ernest;
 
-public class Main {
+public class FactoryPatternDemo {
 
     public static void main(String[] args) {
 	// write your code here
