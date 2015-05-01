@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b23e53-b514-46fa-a175-92d5b4d74b90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ernest/Automobile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ernest/AutomobileFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ernest/DieselTruck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ernest/ElectricCar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ernest/SedanCar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ernest/FactoryPatternDemo.java" afterPath="$PROJECT_DIR$/src/com/ernest/FactoryPatternDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="51b23e53-b514-46fa-a175-92d5b4d74b90" name="Default" comment="" />
     <ignored path="FactoryMethod.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
