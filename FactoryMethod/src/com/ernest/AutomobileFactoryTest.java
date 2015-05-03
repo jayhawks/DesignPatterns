@@ -34,4 +34,16 @@ public class AutomobileFactoryTest {
         assertTrue(sedan instanceof SedanCar);
 
     }
+
+    @Test
+    public void invalidAutomobileTypeReturnsNull() {
+
+        // James is not an automobile
+        Automobile james;
+
+        // Try to get Automobile with type of James
+        james = factory.getAutomobile("James");
+        
+        assertNull(james);
+    }
 }
