@@ -2,3 +2,7 @@
 *.class
 
 FactoryMethod/.idea/workspace.xml
+
+*.xml
+
+AbstractFactory/.idea/description.html
