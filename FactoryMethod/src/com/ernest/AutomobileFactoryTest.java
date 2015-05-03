@@ -1,12 +1,13 @@
 package com.ernest;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 /**
- * Created by james on 5/1/15.
+ * Test the automobile factory
  */
 public class AutomobileFactoryTest {
 
@@ -15,6 +16,11 @@ public class AutomobileFactoryTest {
     @Before
     public void setUp() {
         factory = new AutomobileFactory();
+    }
+
+    @After
+    public void tearDown() {
+        factory = null;
     }
 
     @Test
@@ -43,7 +49,7 @@ public class AutomobileFactoryTest {
 
         // Try to get Automobile with type of James
         james = factory.getAutomobile("James");
-        
+
         assertNull(james);
     }
 }
